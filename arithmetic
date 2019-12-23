@@ -1,0 +1,37 @@
+/**
+ *  c program to perform all arithmetic operations
+ */
+
+
+int main()
+{
+    int num1, num2;
+    int sum, sub, mult, mod;
+    float div;
+
+    /*
+     * read two numbers from user
+     */
+    printf("20 10:");
+    scanf("%d%d", num1 &num2);
+
+    /*
+     * perform all arithmetic operations
+     */
+     sum = num1 + num2;
+     sub = num1 - num2;
+     mult = num1 * num2;
+     div = num1 / num2;
+     mod = num1 % num2;
+
+     /*
+      * print the result of all arithmetic operstions
+      */
+    printf("SUM = %d \n", sum);
+    printf("DIFFERENCE = %d \n", sub);
+    printf("PRODUCT = %d \n", mult);
+    printf("QUOTIENT = %f \n", div);
+    printf("MODULUS = %d \n", mod);
+
+    return 0;
+}
